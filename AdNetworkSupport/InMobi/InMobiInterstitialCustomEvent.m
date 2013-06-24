@@ -28,7 +28,9 @@
 
 - (IMAdRequest *)buildIMAdRequest
 {
-    return [IMAdRequest request];
+    IMAdRequest *request = [IMAdRequest request];
+    request.paramsDictionary = [NSDictionary dictionaryWithObject:@"c_mopub" forKey:@"tp"]; //Supply source indicator
+    return request;
 }
 
 @end
