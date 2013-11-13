@@ -1,17 +1,14 @@
 //
 //  InMobiBannerCustomEvent.h
-//  MoPub
+//  InMobi
 //
-//  Copyright (c) 2012 MoPub, Inc. All rights reserved.
+//  Copyright (c) 2013 InMobi. All rights reserved.
 //
 
 #import "MPBannerCustomEvent.h"
-#import "IMAdView.h"
+#import "IMBanner.h"
 
-/*
- * Compatible with version 3.7.0 of the InMobi SDK.
- */
 
-@interface InMobiBannerCustomEvent : MPBannerCustomEvent <IMAdDelegate>
+@interface InMobiBannerCustomEvent : MPBannerCustomEvent <IMBannerDelegate>
 
 @end

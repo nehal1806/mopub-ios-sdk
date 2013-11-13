@@ -1,19 +1,16 @@
 //
 //  InMobiInterstitialCustomEvent.h
-//  MoPub
+//  InMobi
 //
-//  Copyright (c) 2012 MoPub, Inc. All rights reserved.
+//  Copyright (c) 2013 InMobi. All rights reserved.
 //
 
 #import "MPInterstitialCustomEvent.h"
 
-#import "IMAdInterstitial.h"
-#import "IMAdInterstitialDelegate.h"
+#import "IMInterstitial.h"
+#import "IMInterstitialDelegate.h"
 
-/*
- * Compatible with version 3.7.0 of the InMobi SDK.
- */
 
-@interface InMobiInterstitialCustomEvent : MPInterstitialCustomEvent <IMAdInterstitialDelegate>
+@interface InMobiInterstitialCustomEvent : MPInterstitialCustomEvent <IMInterstitialDelegate>
 
 @end
